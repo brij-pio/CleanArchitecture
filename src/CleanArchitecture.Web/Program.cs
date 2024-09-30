@@ -33,6 +33,7 @@ namespace CleanArchitecture.Web
             }
 
             host.Run();
+            var temp = new Temp();
         }
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
