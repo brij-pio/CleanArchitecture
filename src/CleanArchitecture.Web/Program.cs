@@ -12,6 +12,7 @@ namespace CleanArchitecture.Web
     {
         public static void Main(string[] args)
         {
+            var temp = new Temp();
             var host = CreateWebHostBuilder(args).Build();
 
             using (var scope = host.Services.CreateScope())
@@ -32,8 +33,7 @@ namespace CleanArchitecture.Web
                 }
             }
 
-            host.Run();
-            var temp = new Temp();
+            host.Run();            
         }
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
