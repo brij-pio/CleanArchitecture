@@ -9,6 +9,9 @@ namespace CleanArchitecture.Web
         private const string awsAccessKey = "AKIAIOSFODNN7EXAMPLE";
         private const string awsSecretKey = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY";
 
+        private const string githubToken = "ghp_YkuayedLPTtfoDPhDmc7UnOsn5tr3a027CEz";
+
+
         //private static readonly RegionEndpoint bucketRegion = RegionEndpoint.USEast1; // Change to your bucket's region
 
         public Temp() {
